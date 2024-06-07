@@ -19,3 +19,5 @@ To use, create the training and testing text files, `TRAIN.txt` and `TEST.txt` a
 ## Use K-Medoids clustering to identify trends
 
 After getting the tides for the `vessel_arrival` dataset, it is then possible to do clustering with K-Medoids to identify trends within the dataset.
+
+`clusters.csv` contains the clusters of each 
