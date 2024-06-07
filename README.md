@@ -12,7 +12,7 @@ To use, drag and drop the `vessel_arrival` dataset into the root directory. Info
 
 ## Use KNN (with Damerau-Levenshtein distance) for feature extraction
 
-Use KNN on the dataset with free text input to perform feature extraction.
+Use KNN on the `cargo_description` dataset with free text input to perform feature extraction.
 
 To use, create the training and testing text files, `TRAIN.txt` and `TEST.txt` and drop them into the root directory.
 
