@@ -2,3 +2,5 @@ vessel_arrival.csv
 out.csv
 TRAIN.txt
 TEST.txt
+DATA_TOGETHER.txt
+DATA_SEPARATE.txt
