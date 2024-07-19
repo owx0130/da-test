@@ -1,5 +1,6 @@
 vessel_arrival.csv
 out.csv
+knn_model
 TRAIN.txt
 TEST.txt
 DATA.txt
