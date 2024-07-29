@@ -5,22 +5,22 @@ months_ref = {1: "Jan", 2: "Feb", 3: "Mar", 4: "Apr", 5: "May", 6: "Jun", 7: "Ju
               10: "Oct", 11: "Nov", 12: "Dec"}
 
 # retrive vessel arrival data from csv file
-# change usecols parameter if required. retrieved data should be in DD,MM,YYYY,"HH:MM" format
-file = pd.read_csv("vessel_arrival_new.csv", usecols=[3,4,5,6])
+# change usecols parameter if required. retrieved data should be in DD,MM,YYYY,HH:MM format
+file = pd.read_csv("vessel_arrival.csv", usecols=[3,4,5,6])
 vessel_arrival = file.to_numpy()
 
 # retrive 2022 tide data from csv file
-# change usecols parameter if required. retrieved data should be in DD,"HH:MM",{"H", "L"} format
+# change usecols parameter if required. retrieved data should be in DD,HH:MM,{"H", "L"} format
 file = pd.read_csv("tidal_data/2022_tidal_data.csv", header=None, na_filter=False)
 tide_2022 = file.to_numpy()
 
 # retrive 2023 tide data from csv file
-# change usecols parameter if required. retrieved data should be in DD,"HH:MM",{"H", "L"} format
+# change usecols parameter if required. retrieved data should be in DD,HH:MM,{"H", "L"} format
 file = pd.read_csv("tidal_data/2023_tidal_data.csv", header=None, na_filter=False)
 tide_2023 = file.to_numpy()
 
 # retrive 2024 tide data from csv file
-# change usecols parameter if required. retrieved data should be in DD,"HH:MM",{"H", "L"} format
+# change usecols parameter if required. retrieved data should be in DD,HH:MM,{"H", "L"} format
 file = pd.read_csv("tidal_data/2024_tidal_data.csv", header=None, na_filter=False)
 tide_2024 = file.to_numpy()
 

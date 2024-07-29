@@ -14,10 +14,8 @@ To use, drag and drop the `vessel_arrival` dataset into the root directory. Info
 
 Use KNN on the `cargo_description` dataset with free text input to perform feature extraction.
 
-To use, create the training and testing text files, `TRAIN.txt` and `TEST.txt` and drop them into the root directory.
+To use, create the training and testing text files, `TRAIN.txt` and `TEST.txt` and drop them into the root directory. Format of data is written in the comments under the KNN Classifier section.
 
-## Use K-Medoids clustering to identify trends
+To use K-Fold Cross Validation, pass the entire dataset into the `DATA.txt` file, then run the code in the section.
 
-After getting the tides for the `vessel_arrival` dataset, it is then possible to do clustering with K-Medoids to identify trends within the dataset.
-
-`clusters.csv` contains the clusters of each 
+See sample data in `SAMPLE_CARGO.txt` for a sample of what the text files should look like.
